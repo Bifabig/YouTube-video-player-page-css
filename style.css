@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,400;1,400&display=swap");
+
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  outline: none;
+}
+
+/* navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+/* Navigation logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-1 {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.logo img {
+  object-fit: contain;
+  width: 100px;
+}
+
+i {
+  font-size: 1.5rem;
+  color: #666666;
+  cursor: pointer;
+}
+
+/* search bar */
+
+.middle-nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.middle-nav input {
+  width: 50%;
+}
+
+.middle-nav-button {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+/* Nav icons right */
+
+.right-side-nav {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.right-side-nav i {
+  margin-left: 30px;
+}
+
+/* current video part */
+
+main {
+  background-color: #f9f9f9;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure-section {
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+figure {
+  margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 375px;
+}
+
+figcaption {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.views-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.views-left {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.views-left i {
+  font-size: 0.2rem;
+}
+
+.view-right {
+  display: flex;
+}
+
+.view-right i {
+  font-size: 1rem;
+}
+
+.btn-share {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  margin-top: 16px;
+}
